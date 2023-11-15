@@ -1,0 +1,22 @@
+.about-me {
+  position: relative;
+  line-height: 110%;
+}
+.chevron-down-double-icon {
+  position: relative;
+  width: 69px;
+  height: 69px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.property-1default {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--color-ghostwhite-200);
+  font-family: var(--font-poppins);
+}

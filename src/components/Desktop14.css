@@ -1,0 +1,122 @@
+.asset-2-2 {
+  position: relative;
+  width: 40.4px;
+  height: 29.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.button-base {
+  justify-content: center;
+  cursor: pointer;
+}
+.button-base,
+.container,
+.frame-parent,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation {
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.container,
+.frame-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-61xl);
+}
+.frame-parent {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-61xl);
+  gap: var(--gap-37xl);
+}
+.interested-in-working {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.send-me-an {
+  position: relative;
+  line-height: 150%;
+}
+.buttons,
+.interested-in-working-with-me-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.interested-in-working-with-me-parent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-37xl);
+  gap: var(--gap-37xl);
+}
+.desktop-14,
+.desktop-14-inner {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.desktop-14-inner {
+  align-self: stretch;
+  background: linear-gradient(84.76deg, #a630f8, #6f2ff5);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-61xl);
+  text-align: center;
+  font-size: var(--font-size-37xl);
+  color: var(--color-white);
+}
+.desktop-14 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    gap: var(--gap-0);
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    gap: var(--gap-0);
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    flex-direction: column;
+    gap: var(--gap-0);
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

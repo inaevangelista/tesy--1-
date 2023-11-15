@@ -1,0 +1,112 @@
+.code-02-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.what-i-can {
+  position: relative;
+  line-height: 110%;
+}
+.code-02-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.developing-small-to {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+}
+.frame-parent7,
+.frame-parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-parent8 {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.frame-parent7 {
+  width: 481px;
+  gap: var(--gap-45xl);
+}
+.frame-item {
+  position: relative;
+  width: 1px;
+  height: 279px;
+}
+.frame-inner {
+  width: 58.4px;
+  height: 58.4px;
+  object-fit: cover;
+}
+.python {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.frame-parent10 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite-100);
+  width: 96px;
+  height: 122px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frame-parent10,
+.frame-parent14,
+.frame-parent6,
+.frame-parent9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent14 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite-100);
+  width: 95px;
+  height: 122px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.frame-parent6,
+.frame-parent9 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.frame-parent9 {
+  width: 575px;
+  height: 268px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.frame-parent6 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+  padding: var(--padding-37xl);
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}

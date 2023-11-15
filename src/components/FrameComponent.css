@@ -1,0 +1,84 @@
+.frame-child9 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite-100);
+  overflow: hidden;
+}
+.backend-development,
+.ritmo {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.backend-development {
+  text-transform: uppercase;
+}
+.ritmo {
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.backend-development-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.ritmo-aims-to {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.frame-parent21,
+.frame-wrapper,
+.ritmo-aims-to-provide-a-safe-a-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-wrapper {
+  color: var(--color-gray);
+}
+.frame-parent21 {
+  gap: var(--gap-base);
+}
+.view-on-github {
+  position: relative;
+  line-height: 150%;
+}
+.buttons1,
+.frame-parent20 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.buttons1 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-blueviolet);
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-5xl);
+}
+.frame-parent20 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.07);
+  width: 410.7px;
+  height: 564px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-13xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-blueviolet);
+  font-family: var(--font-poppins);
+}
